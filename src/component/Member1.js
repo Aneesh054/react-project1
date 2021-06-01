@@ -1,7 +1,7 @@
 export function Member1() {
   return (
     <div>
-      <h1>User Registration</h1>
+      <h1 className="d-flex justify-content-center text-success ">User Registration</h1>
       <div className="mb-1">
         <input
           type="text"

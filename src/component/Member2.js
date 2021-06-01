@@ -1,15 +1,20 @@
 export function Member2() {
   return (
     <div>
-      <h1>Login Module</h1>
-      <div className="form-control">
-        <input type="text" value="" placeholder="userName" />
+      <h1 className="d-flex justify-content-center">Login Module</h1>
+      <div className="mb-2">
+        <input type="text" name=""id=""placeholder="userName" className="form-control" />
       </div>
-      <div className="form-control">
-        <input type="password" value="" placeholder="password" />
+      <div className="mb-2">
+        <input
+          type="password"
+          value=""
+          placeholder="password"
+          className="form-control"
+        />
       </div>
-      <div>
-        <input type="button" value="login" className="bg-primary" />
+      <div  className="bg-secondary d-flex justify-content-center">
+        <input type="button" value="login" />
       </div>
     </div>
   );
